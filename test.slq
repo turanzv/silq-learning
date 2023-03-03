@@ -1,5 +1,6 @@
-// example of erroneous code
+// example of correct code
 def main() { 
     x:=0:B;
     x:=H(x);
+    return measure(x);
 }
