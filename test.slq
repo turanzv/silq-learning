@@ -2,6 +2,7 @@
 def main() { 
     x:=0:B;
     dump();
+    exit();
     x:=H(x);
     return measure(x);
 }
