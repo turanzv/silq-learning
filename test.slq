@@ -1,6 +1,7 @@
 // example of correct code
 def main() { 
     x:=0:B;
+    dump();
     x:=H(x);
     return measure(x);
 }
