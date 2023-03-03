@@ -1,7 +1,20 @@
 // example of correct code
 def main() { 
-    x:=0:B;
-    print(x);
-    x:=H(x);
-    return measure(x);
+    print(trivialChecker(balanced));
+    print(trivialChecker(constant));
+
+}
+
+def trivialChecker(f:!B !-> !B) {
+    output0 := f(false);
+    output1 := f(true);
+    return output0 == output1;
+}
+
+def balanced(f:!B) {
+    return f;
+}
+
+def constant(f:!B) {
+    return true;
 }
